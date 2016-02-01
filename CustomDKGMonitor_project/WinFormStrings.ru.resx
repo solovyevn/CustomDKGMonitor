@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAlarmDisabled" xml:space="preserve">
+    <value>Сигнализация ВЫКЛЮЧЕНА!</value>
+  </data>
+  <data name="strAlarmEnabled" xml:space="preserve">
+    <value>Сигнализация ВКЛЮЧЕНА!</value>
+  </data>
+  <data name="strAlarmExcl" xml:space="preserve">
+    <value>!Тревога!</value>
+  </data>
+  <data name="strAlarmSoundOff" xml:space="preserve">
+    <value>Звуковое оповещение остановлено!</value>
+  </data>
+  <data name="strAlarmSoundOn" xml:space="preserve">
+    <value>Звуковое оповещение воспроизводится!</value>
+  </data>
+  <data name="strAlarmStillEnabled" xml:space="preserve">
+    <value>Сигнализация все еще включена!</value>
+  </data>
+  <data name="strAppName" xml:space="preserve">
+    <value>CustomDKGMonitor</value>
+  </data>
+  <data name="strCoolantTemp" xml:space="preserve">
+    <value>Температура охлаждающей жидкости</value>
+  </data>
+  <data name="strDisableAlarm" xml:space="preserve">
+    <value>Выкл. звуковой сигнал</value>
+  </data>
+  <data name="strDisAlarmBeforeStop" xml:space="preserve">
+    <value>Выключите сигнализацию прежде чем отключать мониторинг!</value>
+  </data>
+  <data name="strDKGDT" xml:space="preserve">
+    <value>Дата и время на устройстве</value>
+  </data>
+  <data name="strEnableAlarm" xml:space="preserve">
+    <value>Вкл. звуковой сигнал</value>
+  </data>
+  <data name="strErrAccessLog" xml:space="preserve">
+    <value>Ошибка доступа к файлу лога!</value>
+  </data>
+  <data name="strErrEnumPorts" xml:space="preserve">
+    <value>Ошибка получения списка портов!</value>
+  </data>
+  <data name="strErrInSettings" xml:space="preserve">
+    <value>Ошибка в настройках!</value>
+  </data>
+  <data name="strErrLoadSound" xml:space="preserve">
+    <value>Ошибка загрузки звукового файла!</value>
+  </data>
+  <data name="strErrOpenPort" xml:space="preserve">
+    <value>Ошибка при открытии порта!</value>
+  </data>
+  <data name="strIndexLow0" xml:space="preserve">
+    <value>Index&lt;0.</value>
+  </data>
+  <data name="strInitErr" xml:space="preserve">
+    <value>Ошибка инициализации!</value>
+  </data>
+  <data name="strIsStopped" xml:space="preserve">
+    <value>отключен!</value>
+  </data>
+  <data name="strLastDataUpd" xml:space="preserve">
+    <value>Последнее обновление данных</value>
+  </data>
+  <data name="strMakeSurePorts" xml:space="preserve">
+    <value>Убедитесь, что на данной машине имеются последовательные порты, или перезагрузите систему и попробуйте снова.</value>
+  </data>
+  <data name="strNA" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="strNoDataFor" xml:space="preserve">
+    <value>Нет данных на порту в течении</value>
+  </data>
+  <data name="strOutLimit" xml:space="preserve">
+    <value>за пределами!</value>
+  </data>
+  <data name="strParseErr" xml:space="preserve">
+    <value>Ошибка обработки данных!</value>
+  </data>
+  <data name="strPortClose" xml:space="preserve">
+    <value>Порт закрыт!</value>
+  </data>
+  <data name="strPortOpen" xml:space="preserve">
+    <value>Порт открыт!</value>
+  </data>
+  <data name="strRecieveErr" xml:space="preserve">
+    <value>Ошибка приема данных.</value>
+  </data>
+  <data name="strRunning" xml:space="preserve">
+    <value>работает...</value>
+  </data>
+  <data name="strSeconds" xml:space="preserve">
+    <value>секунд</value>
+  </data>
+  <data name="strSerialIsOpened" xml:space="preserve">
+    <value>Порт открыт</value>
+  </data>
+  <data name="strSerialStillOpen" xml:space="preserve">
+    <value>Порт все еще открыт! Вы хотите закрыть порт автоматически и выйти из программы?</value>
+  </data>
+  <data name="strSkipData" xml:space="preserve">
+    <value>Пропускаю данные, очищаю InnerBuffer.</value>
+  </data>
+  <data name="strStart" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="strStarted" xml:space="preserve">
+    <value>Запущен.</value>
+  </data>
+  <data name="strStop" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="strStopped" xml:space="preserve">
+    <value>Отключен.</value>
+  </data>
+  <data name="strTryDelSet" xml:space="preserve">
+    <value>Попробуйте удалить файл настроек и перезапустите программу.</value>
+  </data>
+  <data name="strDataFlowRestored" xml:space="preserve">
+    <value>Поток данных через порт восстановлен</value>
+  </data>
+</root>

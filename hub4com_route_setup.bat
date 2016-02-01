@@ -1,0 +1,1 @@
+start C:\"Program Files (x86)"\hub4com\hub4com.exe --baud=2400 --octs=off COM2 --baud=2400 --octs=off COM3 --baud=2400 --octs=off COM5
